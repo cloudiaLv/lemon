@@ -10,10 +10,9 @@ driver.find_element_by_xpath('//div[@class="search_tool"]').click()
 driver.find_element_by_xpath('//span[@class="search_tool_tf "]/i').click()
 sleep(3)
 driver.find_element_by_xpath('//p[@class="c-tip-custom-st"]/input').send_keys('2021-07-01')
-sleep(3)
-
 
 
 
 sleep(3)
 driver.quit()
+print('执行成功')
